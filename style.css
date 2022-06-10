@@ -1,0 +1,316 @@
+#home img{
+    width: 100%;
+}
+.head #main_heading{
+    background-image: linear-gradient(45deg,greenyellow,silver);
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#list{
+    background-color: navajowhite;
+}
+#li_head{
+    font-size: 2.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 0%;
+}
+.head #list{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-position: inside;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+} 
+.head #link_kovil{
+    width: 1cm;
+    height: 1cm;
+}
+.head #link_fort{
+    width: 1cm;
+    height: 1cm;
+}
+.head #link_taj{
+    width: 1cm;
+    height: 1cm;
+}
+.head #link_red{
+    width: 1cm;
+    height: 1cm;
+}
+.head #link_qutub{
+    width: 1cm;
+    height: 1cm;
+}
+
+@keyframes text_kovil{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 20ch;
+    }
+}
+
+@keyframes text_fort{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 12ch;
+    }
+}
+@keyframes text_taj{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 12ch;
+    }
+}
+@keyframes text_red{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 12ch;
+    }
+}
+@keyframes text_qutub{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 12ch;
+    }
+}
+
+#temple{
+    width: 35rem;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    padding-bottom: 10px;
+    box-shadow: 1rem 1rem 1rem;
+}
+#fort{
+    width: 40rem;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    padding-bottom: 10px;
+    box-shadow: 1rem 1rem 1rem;
+}
+#taj{
+    width: 40rem;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    padding-bottom: 10px;
+    box-shadow: 1rem 1rem 1rem;
+}
+#red{
+    width: 40rem;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    padding-bottom: 10px;
+    box-shadow: 1rem 1rem 1rem;
+}
+#qutub{
+    width: 40rem;
+    height: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    padding-bottom: 10px;
+    box-shadow: 1rem 1rem 1rem;
+}
+
+#thanjai_periya_kovil{
+    background-image: linear-gradient(45deg,yellow,red);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#vellore_fort{
+    background-image: linear-gradient(45deg,gray,skyblue);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#taj_mahal{
+    background-image: linear-gradient(45deg,yellow,orange);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#red_fort{
+    background-image: linear-gradient(45deg,chocolate,skyblue);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#qutub_minar{
+    background-image: linear-gradient(45deg,skyblue,chocolate);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#heading_temple{
+    text-align: left;
+    font-size: 3rem;
+    padding: auto;
+    color: skyblue;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text_kovil 6s steps(20) infinite;
+}
+
+#heading_fort{
+    text-align: left;
+    font-size: 3rem;
+    padding: auto;
+    color: skyblue;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text_fort 6s steps(20) infinite;
+    left: 20px;
+}
+#heading_taj{
+    text-align: left;
+    font-size: 3rem;
+    padding: auto;
+    color: skyblue;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text_fort 6s steps(20) infinite;
+    left: 50px;
+}
+#heading_red{
+    text-align: left;
+    font-size: 3rem;
+    padding: auto;
+    color: skyblue;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text_fort 6s steps(20) infinite;
+    left: 50px;
+}
+
+#heading_qutub{
+    text-align: left;
+    font-size: 3rem;
+    padding: auto;
+    color: skyblue;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text_fort 6s steps(20) infinite;
+    left: 50px;
+}
+
+#geo{
+    color: red;
+}
+#geo_temple:hover{
+    color: chocolate;
+}
+#geo_temple:visited{
+    color: blue;
+}
+
+.abt_temple{
+    font-size: 1.5rem;
+}
+.abt_fort{
+    font-size: 1.5rem;
+}
+.abt_taj{
+    font-size: 1.5rem;
+}
+.abt_red{
+    font-size: 1.5rem;
+}
+.abt_qutub{
+    font-size: 1.5rem;
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#wiki_temple{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#wiki_temple:visited{
+    color: blueviolet;
+}
+#wiki_temple:hover{
+    color: greenyellow;
+}
+#wiki_fort{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#wiki_fort:visited{
+    color: blueviolet;
+}
+#wiki_fort:hover{
+    color: greenyellow;
+}
+#wiki_taj{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#wiki_taj:visited{
+    color: blueviolet;
+}
+#wiki_taj:hover{
+    color: greenyellow;
+}
+#wiki_red{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#wiki_red:visited{
+    color: blueviolet;
+}
+#wiki_red:hover{
+    color: greenyellow;
+}
+#wiki_qutub{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+#wiki_qutub:visited{
+    color: blueviolet;
+}
+#wiki_qutub:hover{
+    color: greenyellow;
+}
+
+
+
+
